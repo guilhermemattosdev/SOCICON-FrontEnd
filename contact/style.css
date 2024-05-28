@@ -5,9 +5,11 @@
   }
 
 body{
-    background-color: #FAF9F6;
+    background-color: #041c3e;
     overflow-x: hidden;
 }
+
+/* ---Header--- */
 
 .cssbuttons-io-button {
     margin-left: 32px;
@@ -99,8 +101,22 @@ body{
     width: 50px;
     height: 50px;
 }
+
+/* ---Header--- */
+/* ---Main--- */
+
+.tittle{
+  margin-top: 16px;
+  justify-content: center;
+  display: flex;
+  color: #FAF9F6;
+  font-weight: 700;
+}
+
 .contact-form {
-  margin: 3rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   background-color: #f2f2f2;
   padding: 20px;
   border-radius: 10px;
@@ -175,10 +191,13 @@ select{
   border: 1px solid #0e0e0e;
 }
 
+/* ---Main--- */
+/* ---Footer--- */
+
 .social {
   width: fit-content;
   height: fit-content;
-  background-color: #0e0e0e;
+  background-color: #f2f2f2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,7 +244,7 @@ select{
 }
 
 .footer{
-  background-color: #0e0e0e;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -251,7 +270,7 @@ select{
 }
 
 .location{
-  color: #e4e4e4;
+  color: #0e0e0e;
 }
 @keyframes slide-in-top {
   0% {
@@ -265,3 +284,4 @@ select{
   }
 } 
 
+/* ---Footer--- */
