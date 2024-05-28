@@ -41,11 +41,11 @@
             <form action="https://api.web3forms.com/submit" method="POST">
               <input type="hidden" name="access_key" value="70d0771a-472b-4d53-858d-73d89dade45c">
               <label for="name">Nome completo:</label>
-              <input type="text" required=" ">
+              <input type="text" name="Nome" required>
               <label for="email">E-mail:</label>
-              <input type="email" id="email" name="email" required=" ">
+              <input type="email" id="email" name="email" required>
               <label for="assunto">Serviço:</label>
-              <select name="assunto" id="assunto" required=" ">
+              <select name="assunto" id="assunto" required>
                 <option value="" disabled selected>--Por favor, selecione uma das opções--</option>
                 <option value=">Acessoria contábil">Acessoria contábil</option>
                 <option value="Acessoria fiscal">Acessoria fiscal</option>
@@ -54,7 +54,7 @@
                 <option value="Outros">Outros</option>
               </select> <br>
               <label for="message">Mensagem:</label>
-              <textarea style="resize: none" maxlength="125" id="message" name="Mensagem" required=" "></textarea>
+              <textarea style="resize: none" maxlength="125" id="message" name="Mensagem" required></textarea>
               <button type="submit">Enviar</button>
             </form>
           </div>
