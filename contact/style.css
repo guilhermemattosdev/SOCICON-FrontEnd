@@ -504,6 +504,7 @@ form label{
 
 .location{
   color: #0e0e0e;
+  font-weight: 500;
 }
 @keyframes slide-in-top {
   0% {
