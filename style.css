@@ -101,7 +101,7 @@ body{
 /* ---------------- WRAPPER COMEÇA AQUI ---------------- */
 .bgImgCenter{
   display: block;
-  background-image: url('/assets/BG3.png');
+  background-image: url('assets/BG3.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
