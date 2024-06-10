@@ -110,6 +110,7 @@ main{
   justify-content: center;
   flex-direction: column;
   padding: 32px;
+  
 }
 
 .form{
@@ -479,6 +480,7 @@ form label{
   justify-content: space-between;
   align-items: center;
   height: 10vh;
+  width: 100vw;
   padding: 0rem 8vw;
 }
 
@@ -519,9 +521,65 @@ form label{
 
 /* ---Responsivity--- */
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
+  *{
+    overflow-x: hidden;
+  }
+
+  main{
+    height: 80%;
+  }
+
+  .left-content{
+    overflow: hidden;
+  }
+
+  .form{
+    display: flex;
+    max-width: 0;
+    min-width: 90vw;
+  }
+
+  .rightFooter{
+    margin-right: 6.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  *{
+    overflow-x: hidden;
+  }
+
+  main{
+    padding: 16px;
+  }
+
+  .footer{
+    display: flex;
+    position: static;
+
+  }
+
+  .logo{
+    width: 2rem;
+  }
+
+  .left-content{
+    width: 32px;
+    display: flex;
+  }
+
+  .right-content{
+    display: none;
+  }
+
   .centerFooter{
     display: none;
+  }
+
+  .rightFooter{
+    margin-right: 4.5rem;
   }
 
   .form{
