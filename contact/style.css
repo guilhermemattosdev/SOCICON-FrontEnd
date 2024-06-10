@@ -477,11 +477,10 @@ form label{
 .footer{
   background-color: #f2f2f2;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 10vh;
   width: 100vw;
-  padding: 0rem 8vw;
 }
 
 .leftFooter{
@@ -521,9 +520,10 @@ form label{
 
 /* ---Responsivity--- */
 
-@media only screen and (min-width: 768px){
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
   *{
-    overflow-x: hidden;
+    overflow-x: hidden; 
   }
 
   main{
@@ -558,7 +558,7 @@ form label{
   .footer{
     display: flex;
     position: static;
-
+    width: 100%;
   }
 
   .logo{
