@@ -9,8 +9,8 @@ body{
     overflow-x: hidden;
 }
 
+
 .cssbuttons-io-button {
-    margin-left: 32px;
     background: #0C55BB;
     color: white;
     font-family: inherit;
@@ -161,10 +161,10 @@ body{
 
 .content-box1{
   justify-content: center;
+
 }
 
 .text-box{
-  height: 20vh;
   text-align: center;
   align-items: center;
   align-content: center;
@@ -254,6 +254,7 @@ body{
   align-items: center;
   height: 85px;
   padding: 0rem 8vw;
+  margin-top: 96px;
 }
 
 .leftFooter{

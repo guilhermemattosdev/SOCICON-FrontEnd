@@ -521,28 +521,41 @@ form label{
 /* ---Responsivity--- */
 
 
-@media only screen and (max-width: 1024px) and (min-width: 768px){
+@media only screen and (max-width: 768px) and (min-width: 601px){
   *{
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
 
   main{
-    height: 80%;
+    padding: 16px;
+  }
+
+  .footer{
+    display: flex;
+    position: static;
+    width: 100%;
+    height: 96px;
+  }
+
+  .logo{
+    width: 2rem;
   }
 
   .left-content{
-    overflow: hidden;
+    width: 32px;
+    display: flex;
   }
 
   .form{
     display: flex;
-    max-width: 0;
-    min-width: 90vw;
+    flex-direction: column;
   }
 
-  .rightFooter{
-    margin-right: 6.5rem;
+  .container{
+    max-width: 100%;
   }
+
+  
 }
 
 
@@ -559,6 +572,7 @@ form label{
     display: flex;
     position: static;
     width: 100%;
+    height: 64px;
   }
 
   .logo{
@@ -576,10 +590,6 @@ form label{
 
   .centerFooter{
     display: none;
-  }
-
-  .rightFooter{
-    margin-right: 4.5rem;
   }
 
   .form{
