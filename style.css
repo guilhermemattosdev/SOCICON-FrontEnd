@@ -339,12 +339,12 @@ body{
   }
 
   .contentWrapper2{
-  display: grid;
-  grid-template-columns: 1fr;
-  height: 140vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 140vh;
   }
 
-  .right-content{
+  #right-href{
     display: none;
   }
 

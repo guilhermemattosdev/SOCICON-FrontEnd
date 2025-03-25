@@ -555,7 +555,7 @@ form label{
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
   *{
     overflow-x: hidden;
   }
@@ -575,7 +575,7 @@ form label{
     display: flex;
   }
 
-  .right-content{
+  #right-href{
     display: none;
   }
 
