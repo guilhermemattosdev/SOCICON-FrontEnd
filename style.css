@@ -128,10 +128,9 @@ body{
 /* ---------------- WRAPPER2 COMEÇA AQUI ---------------- */
 
 .wrapper2{
-  height: 75vh;
+  height: 60vh;
   justify-content: center;
   align-items: center;
-
 }
 
 .contentWrapper2{
