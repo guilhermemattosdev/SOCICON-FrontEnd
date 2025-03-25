@@ -200,7 +200,7 @@ body{
 .social {
   width: fit-content;
   height: fit-content;
-  background-color: #0e0e0e;
+  background-color: #0D1117;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -247,7 +247,7 @@ body{
 }
 
 .footer{
-  background-color: #0e0e0e;
+  background-color: #0D1117;
   display: flex;
   justify-content: space-between;
   align-items: center;
