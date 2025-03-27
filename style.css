@@ -310,7 +310,7 @@ body{
     .contentWrapper2{
       display: grid;
       grid-template-columns: 1fr;
-      height: 140vh;
+      height: 120vh;
       }
     
       .text-box1{
@@ -325,6 +325,10 @@ body{
     
       .wrapper2{
         height: 180%;
+      }
+
+      .tittleWrapper2{
+        margin-bottom: 0;
       }
 }
 
@@ -342,7 +346,7 @@ body{
   .contentWrapper2{
     display: grid;
     grid-template-columns: 1fr;
-    height: 140vh;
+    height: 120vh;
   }
 
   #right-href{
@@ -360,11 +364,15 @@ body{
   
 
   .wrapper2{
-    height: 180%;
+    height: 130vh;
   }
   
   .centerFooter{
     display: none;
+  }
+
+  .tittleWrapper2{
+    margin-bottom: 0;
   }
 }
 
