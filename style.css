@@ -110,19 +110,12 @@ body{
 }
 
 .text-box1{
-  color: #1F4B88;
+  color: white;
   text-align: center;
   align-items: center;
   align-content: center;
   height: 45vh;
   font-size: 3rem;
-}
-
-.text-box2{
-  color:white;
-  text-align: center;
-  align-items: center;
-  font-size: 2rem;
 }
 
 .paragraph{
